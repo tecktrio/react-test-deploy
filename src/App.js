@@ -9,7 +9,7 @@ function App() {
       <HashRouter>
         <Routes>
           <Route exact path='/' element={<Home/>}/>
-          <Route path='/react-test-deploy/about' element={<About/>}/>
+          <Route path='about' element={<About/>}/>
         </Routes>
       </HashRouter>
     </div>
