@@ -1,6 +1,6 @@
 {
   "name": "react-test-deploy",
-  "homepage": ".", 
+  "homepage": "https://tecktrio.github.io/react-test-deploy", 
   "version": "0.1.0",
   "private": false,
   "dependencies": {

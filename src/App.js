@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       <BrowserRouter basename='/react-test-deploy/'>
         <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/about' element={<About/>}/>
+          <Route path='/react-test-deploy' element={<Home/>}/>
+          <Route path='/react-test-deploy/about' element={<About/>}/>
         </Routes>
       </BrowserRouter>
     </div>
