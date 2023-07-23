@@ -5,7 +5,7 @@ function Home() {
   return (
     <div>
       hello
-<Link to='about' >about</Link>
+<Link to='/about' >about</Link>
     </div>
   )
 }
