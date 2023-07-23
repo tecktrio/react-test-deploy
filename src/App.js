@@ -6,9 +6,9 @@ import About from './About';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename='/react-test-deploy'>
+      <BrowserRouter>
         <Routes>
-          <Route path='/react-test-deploy' element={<Home/>}/>
+          <Route exact path='/' element={<Home/>}/>
           <Route path='/react-test-deploy/about' element={<About/>}/>
         </Routes>
       </BrowserRouter>
